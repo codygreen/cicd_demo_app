@@ -3,7 +3,7 @@ node {
    stage('Preparation') { 
       // Get some code from a GitHub repository
       //git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-      echo GIT_SERVER
+      //echo GIT_SERVER
    }
    stage('Build') {
         echo sh(returnStdout: true, script: 'env')
